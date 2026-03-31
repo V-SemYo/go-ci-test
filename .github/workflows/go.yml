@@ -20,6 +20,11 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.21'
+        
+    - name: Run golangci-lint
+      uses: golangci/golangci-lint-action@v6
+      with:
+        version: v1.60
 
     - name: Build
       run: |
