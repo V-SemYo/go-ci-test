@@ -11,7 +11,3 @@ func TestMaxInt(t *testing.T) {
 		t.Errorf("expected: %d, got: %d", b, result)
 	}
 }
-
-func TestMain() {
-	main()
-}
